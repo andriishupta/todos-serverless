@@ -2,5 +2,15 @@
 node_modules
 jspm_packages
 
+.DS_store
+.idea/
+.vscode/
+
 # Serverless directories
-.serverless
+functions/.serverless
+
+# app directories
+app/.idea
+app/.vscode
+app/build
+
