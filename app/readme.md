@@ -1,56 +1,27 @@
-# Elm TodoMVC Example
+# App
 
-> A functional language for interactive applications
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
 
-> _[Elm](http://elm-lang.org/)_
+## Development server
 
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Learning Elm
+## Code scaffolding
 
-The [Elm website](http://elm-lang.org/) is a great resource for getting
-started.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Here are some links you may find helpful:
+## Build
 
-* [Try Elm](http://elm-lang.org/try)
-* [Learn Elm](http://elm-lang.org/Learn.elm)
-* [An Introduction to Elm](http://guide.elm-lang.org/)
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-Get help from other Elm users:
+## Running unit tests
 
-* [elm-discuss mailing list](https://groups.google.com/forum/?fromgroups#!forum/elm-discuss)
-* [@elmlang on Twitter](https://twitter.com/elmlang)
-* [@czaplic on Twitter](https://twitter.com/czaplic)
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-_If you have other helpful links to share, or find any of the links above no longer work, please [let us know](https://github.com/tastejs/todomvc/issues)._
+## Running end-to-end tests
 
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
+## Further help
 
-## Project Structure
-
-All of the Elm code lives in `Todo.elm` and `Todo/Task.elm` and relies
-on the [elm-html][] and [elm-navigation][] packages.
-
-[elm-html]: http://package.elm-lang.org/packages/elm-lang/html/latest/
-[elm-navigation]: http://package.elm-lang.org/packages/elm-lang/navigation/latest/
-
-There also is a port handler set up in `index.html` to set the focus on
-particular text fields when necessary.
-
-## Build Instructions
-
-You need to install [elm](http://elm-lang.org/install)
-on your machine first.
-
-Run the following commands from the root of this project:
-
-```bash
-elm-package install -y
-elm-make Todo.elm --output build/elm.js
-```
-
-Then open `index.html` in your browser!
-
-## Credit
-
-This TodoMVC application was created by [@evancz](https://github.com/evancz), and imported into TasteJS by [@passy](https://twitter.com/passy).
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
